@@ -24,7 +24,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python -m streamlit run deepstream.py
 ```
-Open http://localhost:8501 and upload an image (try the two files in `sample_images/`).
+Live Deploy http://localhost:8501 and upload an image (try the two files in `sample_images/`).
 
 ## How it works
 1. Every image is normalised the same way (RGB, resize, centre-crop 512x512, JPEG re-encode) so file format does not decide the result.
